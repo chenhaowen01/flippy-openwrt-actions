@@ -92,7 +92,7 @@ jobs:
         run: |
           # Custom repository and Releases keywords for *rootfs.tar.gz file
           armvirt_rootfsfile_repo="ophub/amlogic-s9xxx-openwrt"
-          releases_tag_keywords="OpenWrt_.*lede.*/.*rootfs.tar.gz"
+          releases_tag_keywords="OpenWrt_.*official.*/.*rootfs.tar.gz"
           #
           # The following download paths, etc. can remain unchanged
           save_rootfsfile_path="openwrt/bin/targets/armvirt/64"
