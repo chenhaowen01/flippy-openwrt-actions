@@ -91,7 +91,7 @@ jobs:
         if: ${{ steps.init.outputs.status }} == 'success' && !cancelled()
         run: |
           # Custom repository and Releases keywords for *rootfs.tar.gz file
-          armvirt_rootfsfile_repo="ophub/amlogic-s9xxx-openwrt"
+          armvirt_rootfsfile_repo="chenhaowen01/amlogic-s9xxx-openwrt"
           releases_tag_keywords="OpenWrt_.*official.*/.*rootfs.tar.gz"
           #
           # The following download paths, etc. can remain unchanged
